@@ -1,0 +1,9 @@
+// Some()
+// Testa se ao menos um dos elementos no array passa na condição e retorna um valor true ou false
+
+// Exemplo de array de idades
+const ages = [15, 30, 39, 29]
+
+// Verifica se todas são maiores ou igual a 18
+const result = ages.some((age) => age < 18)
+console.log(result)
