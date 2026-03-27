@@ -16,4 +16,10 @@ function unique(nums) {
   console.log(result)
 }
 
+
+function unique(nums) {
+    const uniqueNumbers = new Set(nums)
+  console.log(uniqueNumbers)
+}
+
 unique(nums)
