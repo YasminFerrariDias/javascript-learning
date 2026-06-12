@@ -1,1 +1,0 @@
-console.log("Métodos do Array")
