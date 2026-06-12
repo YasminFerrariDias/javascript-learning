@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "babel main.js --out-dir ./dist",
+    "description:div": "A flag --watch atualiza o código automaticamente após mudanças. Requer um build inicial.",
+    "dev": "babel main.js --watch --out-dir ./dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2"
+  }
+}
